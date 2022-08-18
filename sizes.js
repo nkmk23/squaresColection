@@ -2,6 +2,7 @@ const canvasSketch = require('canvas-sketch');
 const random = require('canvas-sketch-util/random');
 const math = require('canvas-sketch-util/math');
 
+//Fuentes: 
 //https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D#transformations
 //https://www.w3schools.com/tags/ref_canvas.asp
 
