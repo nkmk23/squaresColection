@@ -8,7 +8,7 @@ const math = require('canvas-sketch-util/math');
 
 const settings = {
   dimensions: [ 1080, 1080 ],
-    animate: true
+  animate: true
 };
 
 const sketch = () => {
@@ -29,8 +29,7 @@ const sketch = () => {
         let counter = 0;
         while (counter < 100) {
             counter++;
-            //estudiar como se usa animate 
-            //crear algoritmo para los cuadros
+            //TODO: Se debe crear la cuadricula y se crea un cuadro de otro color al cual se le van a dar las propiedades de movimiento. 
         for (let i = 0; i < numCells; i++) {
             const col = i % cols;
             const row = Math.floor(i / cols);
